@@ -31,7 +31,6 @@ The system supports student registration, course management, enrollment, attenda
 - Java 17
 - JDBC
 - MySQL
-- Maven
 - MySQL Connector/J
 
 ## Project Structure
@@ -66,16 +65,6 @@ USE kec_academic;
 SHOW TABLES;
 ```
 
-**Important:** If you already have data in `kec_academic`, do not blindly re-import the schema. Review `kec_schema.sql` first and back up important data before making schema changes.
-
-## Prerequisites
-
-- JDK 17 or a compatible Java 17 installation
-- MySQL Server
-- Apache Maven, or the Maven executable configured on your computer
-
-Ensure MySQL Server is running before starting the application.
-
 ## Configure the Database Connection
 
 In a PowerShell terminal, set these environment variables for the current terminal session. Replace the example values with your own MySQL credentials:
@@ -86,8 +75,6 @@ $env:KEC_DB_USER = "your_mysql_username"
 $env:KEC_DB_PASSWORD = "your_mysql_password"
 ```
 
-**Security:** Never commit actual database passwords or private credentials to GitHub. These environment variables apply only to the current PowerShell terminal session.
-
 ## Run the Application
 
 Open a terminal in the directory containing `pom.xml`, then run:
@@ -96,7 +83,6 @@ Open a terminal in the directory containing `pom.xml`, then run:
 mvn clean compile exec:java
 ```
 
-If `mvn` is not recognized, run Maven using its full path, as configured on your computer.
 
 The console menu provides access to student management, course management, enrollment and attendance, marks entry, semester mark sheets, attendance defaulters, department summary, and exit.
 
@@ -126,7 +112,7 @@ The console menu provides access to student management, course management, enrol
 - The application is configured to use the existing `kec_academic` database.
 - Verify attendance and grading calculations against the official KEC R2024 rules before final academic submission.
 
-## Author
+## BY
 
 **VIKASINI E**  
 **Roll Number: 25ITR172**
