@@ -35,7 +35,7 @@ The system supports student registration, course management, enrollment, attenda
 
 ## Project Structure
 
-```text
+```
 PROJECT_JAVA/
 ├── src/main/java/
 │   ├── MainApp.java
@@ -48,6 +48,16 @@ PROJECT_JAVA/
 ├── .gitignore
 └── README.md
 ```
+## What is JDBC (Java Database Connectivity)?
+
+JDBC (Java Database Connectivity) is an industry-standard Java API (java.sql and javax.sql) providing universal, database-independent connectivity between Java applications and relational database engines (MySQL, PostgreSQL, Oracle).
+
+## Core Components of JDBC
+
+DriverManager: Coordinates registered drivers and establishes live database sessions via connection URLs (jdbc:mysql://127.0.0.1:3306/kec_academic).
+Connection: Manages live database communication and transactional boundaries (commit(), rollback(), setAutoCommit(false)).
+PreparedStatement: Executes precompiled SQL queries with typed parameter binding (?), optimizing execution plans and completely neutralizing SQL Injection.
+ResultSet: A cursor-based tabular data structure that traverses query results and maps database records into Java objects.
 
 ## Database Configuration
 
