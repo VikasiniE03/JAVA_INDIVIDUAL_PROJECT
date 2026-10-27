@@ -124,7 +124,7 @@ The console menu provides access to student management, course management, enrol
 
 ## Links
  - Project document link - [VIKASINI_JAVA (1) (1).pdf](https://github.com/user-attachments/files/34007767/VIKASINI_JAVA.1.1.pdf)
- - JAVA_INDIVIDUAL_PROJECT/final_compressed_video.mp4
+ - Explanation video link - (https://github.com/VikasiniE03/JAVA_INDIVIDUAL_PROJECT/blob/main/explanation_video.mp4)
 
 
 
