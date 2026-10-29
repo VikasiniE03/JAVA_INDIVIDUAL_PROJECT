@@ -54,7 +54,7 @@ JDBC (Java Database Connectivity) is an industry-standard Java API (java.sql and
 
 ## Core Components of JDBC
 
-DriverManager: Coordinates registered drivers and establishes live database sessions via connection URLs (jdbc:mysql://127.0.0.1:3306/kec_academic).
+DriverManager: Coordinates registered drivers and establishes live database sessions via connection URLs.
 Connection: Manages live database communication and transactional boundaries (commit(), rollback(), setAutoCommit(false)).
 PreparedStatement: Executes precompiled SQL queries with typed parameter binding (?), optimizing execution plans and completely neutralizing SQL Injection.
 ResultSet: A cursor-based tabular data structure that traverses query results and maps database records into Java objects.
